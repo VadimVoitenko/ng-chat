@@ -1,0 +1,21 @@
+mat-toolbar {
+  justify-content: space-between;
+}
+
+.content {
+  padding: 32px;
+}
+
+.username-toolbar {
+  display: inline-block;
+  top: 50%;
+  transform: translateY(-25%);
+}
+
+.profile-image-toolbar {
+  // position: absolute;
+  border-radius: 100%;
+  margin-right: 10px;
+  margin-top: 10px;
+  object-fit: cover;
+}
